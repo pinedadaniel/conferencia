@@ -12,7 +12,7 @@ class Web extends React.Component{
     render(){
 return (
   <div className='Web'> 
-     <body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="57">
+    
      <Header/>
      <Main/>
      <Oradores/>
@@ -21,7 +21,7 @@ return (
      <Footer/>
      <Modal/>
   
-     </body>
+    
   </div>
 
     
