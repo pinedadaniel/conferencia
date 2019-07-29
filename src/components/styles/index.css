@@ -1,26 +1,148 @@
+
 .text-ac-geek{
     color: #00BCD4 !important;
 }
 
 .btn-geek{
-    background-color: #00BCD4;
-    color: white;
+    background-color:#2697CF;
+    color: black;
+    border-color: white;
+  margin-left: 5px;
+}
+#btn-contac{
+    background-color: #2697CF;
+    color: black;
 }
 
 .btn-geek:hover{
-    background-color: #0288D1;
-    color: white;
+    background-color: turquoise;
+    color: black;
 }
 
+#btn-contac:hover{
+    background-color: turquoise;
+    color: black;
+}
+#header{
+    background: purple;
+}
+
+
 #header img{
-    width: 80px;
+    width: 100px;
+    
+}
+.contMarca:hover{
+  zoom:99.2%;
+
 }
 
 #main .carousel-inner img {
-    max-height: 70vh;
+    max-height: 560px;
     object-fit: cover;
-    background: red;
-    filter: grayscale(70%)
+    background: gray;
+    opacity: 0.84;
+
+}
+#iconDiamond{
+    zoom:40%;
+  
+    
+}
+#iconDiamond:hover{
+    zoom:39%;
+  
+    
+}
+
+
+#contInfoMain{
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+ 
+}
+#nombre{
+    color: white;
+    font-family: "sans-serif";
+    font-size: 9vh;
+    font-weight: 500;
+}
+#rol{
+    text-decoration-line: overline;
+    color: white;
+    font: bold 6vh "Courier new";
+ 
+   
+}
+
+@media screen and (max-width: 993px) {
+    #nombre{
+        color: white;
+        font-family: "sans-serif";
+        font-size: 7.5vh;
+        font-weight: 500;
+    }
+    #rol{
+        text-decoration-line: overline;
+        color: white;
+        font: bold 4.6vh "Courier new";
+     
+       
+    }
+    
+  }
+  @media screen and (max-width: 490px) {
+    #nombre{
+        color: white;
+        font-family: "sans-serif";
+        font-size: 6vh;
+        font-weight: 500;
+    }
+    #rol{
+        text-decoration-line: overline;
+        color: white;
+        font: bold 3.7vh "Courier new";
+     
+       
+    }
+    .btn-geek{
+       zoom:70%;
+    }
+    #btn-contac{
+        zoom: 70%;
+    }
+  }
+
+.nav-link:hover{
+background: #2697CF;
+border-radius: 12px;
+
+
+
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color:white  !important;
+  
+
+}
+.nav-item:hover{
+background: yellow;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+    font-size: 1.2em;
+    font-family: 'verdana';
+}
+
+#iconDanyels{
+    zoom:200%;
+    
 }
 
 #main .carousel {
@@ -58,4 +180,8 @@
 
 #footer a{
     color: white;
+}
+
+#dd{
+  height: 20vh;
 }

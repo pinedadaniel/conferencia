@@ -1,7 +1,9 @@
 import React from 'react';
-import med1 from '../assets/img/medellin1.png'
-import med2 from '../assets/img/medellin2.png'
-import med3 from '../assets/img/medellin3.png'
+import fondoMain1 from '../assets/img/fondoMain1.jpg'
+import fondoMain2 from '../assets/img/fondoMain2.jpg'
+import fondoMain3 from '../assets/img/fondoMain3.jpg'
+import fondoMain4 from '../assets/img/fondoMain4.jpg'
+
 
 class Main extends React.Component{
     render(){
@@ -9,27 +11,28 @@ class Main extends React.Component{
         <main id="main">
         <div className="carousel" className="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
             <div className="carousel-inner">
+            <div className="carousel-item">
+                    <img src={fondoMain1} className="d-block w-100" alt="fondo"/>
+                </div>
                 <div className="carousel-item active">
-                    <img src={med1} className="d-block w-100" alt="Medellin 1"/>
+                    <img src={fondoMain4} className="d-block w-100" alt="fondo"/>
                 </div>
                 <div className="carousel-item">
-                    <img src={med2} className="d-block w-100" alt="Medellin 2"/>
+                    <img src={fondoMain2} className="d-block w-100" alt="fondo"/>
                 </div>
                 <div className="carousel-item">
-                    <img src={med3} className="d-block w-100" alt="Medellin 3"/>
+                    <img src={fondoMain3} className="d-block w-100" alt="fondo"/>
                 </div>
+              
                 <div className="overlay">
 <div className="container">
-    <div className="row align-items-left">
-        <div className="col-md-6 offset-md-6 text-center text-md-right">
-            <h1>Geek Conf Medellín</h1>
-            <p className="d-none d-md-block">Geek conf realiza su primer Demo Day con la cohorte de 
-                Línea 1: FrontEnd, donde los Geeks entrenados evidencian
-                por medio de un proyecto todas las habilidades y conocimientos
-                técnicos adquiridos durante el curso.
+    <div className="row" id='contInfoMain'>
+        <div className="col-md-6">
+        <h1 id='nombre'>Kevin Daniel Pineda</h1> 
+            <p id='rol'>Programador Front_End
             </p>
-            <a href="#" className="btn btn-outline-light">Quiero ser orador</a>
-            <button type="button" className="btn btn-geek" data-toggle="modal" data-target="#modalCompra">Comprar Tickets</button>
+            <a href="#" className="btn btn-outline-light" id='btn-contac'>Conctactos</a>
+            <button type="button" className="btn btn-geek" data-toggle="modal" data-target="#modalCompra">Enviame un Mensaje</button>
         </div>
     </div>
 </div>

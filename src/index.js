@@ -6,6 +6,7 @@ import Web from './components/WebComponent';
 import './components/styles/index.css';   
 import $ from 'jquery';
 import Popper from 'popper.js';
+import './global.css';
 
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
